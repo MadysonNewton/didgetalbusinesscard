@@ -1,5 +1,7 @@
 body {
     margin: 20px;
+    font-style: italic;
+    font-family: verdana;
 }
 
 .avatar {
@@ -7,11 +9,19 @@ body {
 }
 
 .card {
+    width: 400px;
     padding: 20px;
-    border: 1px dotted blue;
     display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: violet;
+    background: 6px solid skyblue;
+    color: black;
+
+
 }
 
-.info {
+.border-blue {
     border: 1px dotted blue;
 }
